@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="index.html">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="assets/icons/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="msapplication-TileImage" content="index.html">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#9c7531">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#9c7531">
+    <link rel="mask-icon" href="index.html" color="#9c7531">
+    <link rel="manifest" href="index.html">
+    <link rel="alternate" hreflang="ja" href="index.html" />
+    <link rel="stylesheet" href="../about/css/leset.css">
+    <link rel="stylesheet" href="../about/css/style.css">
+    <!--ie対策カルーセル-->
+    <link href="https://fonts.googleapis.com/css?family=Lateef%7CHeebo:400,700%7CLibre+Caslon+Display" rel="stylesheet">
+    <script src='js/jquery-3.3.1.min.js'></script>
+    <script src="js/es6-promise.min.js"></script>
+    <!--polyfill IE対応-->
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="https://www.google.com/jsapi/"></script>
+    <!--googleMap-->
+    <title>REVERT | あなたのお口の専門店・歯ブラシ専門店</title>
+    <meta name="keywords" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="Copyright" content="(C) REVERT Rights Reserved." />
+    <!-- OGP -->
+    <meta property="og:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta property="og:description" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://revert-inc.com/">
+    <meta property="og:image" content="img/index/revert_ogp.png">
+    <meta property="fb:app_id" content="">
+    <!-- close.OGP -->
+    <!-- Font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- close.Font-awesome -->
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta name="twitter:description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="twitter:image:src" content="img/index/revert_ogp.png">
+    <meta name="tw_text" content="jp" id="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。" />
+    <meta name="tw_url" content="jp" id="img/index/revert_ogp.png" />
+    <!-- close.TWITTER -->
+</head>
+
+<body ontouchstart="">
+
+    <!-- ヘッダーコンテンツ -->
+    <header class="about-header-contena">
+        <ul>
+            <li>
+                <img src="../images/logo/revert_logo_white.png" alt="リベートロゴ">
+            </li>
+            <li>
+                <img src="../images/icon/cart_icon.png" alt="" width="80px">
+            </li>
+        </ul>
+    </header>
+    <!-- メインコンテンツ -->
+    <main>
+        <section>
+            <div class="sec01-title01">
+                <div class="pc_only_300"></div>
+                <h1>ABOUT</h1>
+            </div>
+            <div class="sec01-img-contena01">
+                <img src="../images/logo/revert_logo_black.png" alt="リベートロゴ">
+            </div>
+            <div class="sec01-title02">
+                <h1>マスクをつけている今だからこそ</h1>
+                <h1>見えない口元を大事にしよう。</h1>
+            </div>
+            <div class="pc_only_100"></div>
+            <div class="sec01-title03">
+                <h1>大切な人と逢うとき、満面の笑みでいられるように。</h1>
+            </div>
+            <div class="sec01-img-contena02">
+                <img src="../images/toothbrush/toothbrush_revert.jpg" alt="リベートロゴ">
+            </div>
+        </section>
+
+        <section>
+            <div class="sec02-title01">
+                <h1>
+                    初めまして。Revert代表の菊林です。
+                </h1>
+            </div>
+            <div class="pc_only_100"></div>
+            <div class="sec02-title02">
+                <p>Revertというサービスは私自身の「歯科業界での営業経験」から生まれました。</p>
+                <p> 学生時代はスポーツに没頭し、新卒入社で経験を積んだ歯科業界。 歯科医師でもなく、</p>
+                <p>歯に関しての知識も全くといっていいほどなかった私は、</p>
+                <p> 歯について学べば学ぶほど、健康に生きる為の「口腔内環境」の重要性を感じました。</p>
+                <p> 私は、この歯科業界での経験を皆様にもお伝えし、虫歯や歯周病になる前に</p>
+                <p> 〝予防〟をすることが当たり前の世の中を作り出すべく、サービスを通し尽力して参ります。</p>
+            </div>
+            <div class="pc_only_50"></div>
+            <div class="sec02-title03">
+                <h1>
+                    Revert代表　菊林 慶彌
+                </h1>
+            </div>
+            <div class="pc_only_100"></div>
+        </section>
+
+        <footer class="footer-contena">
+            <div>
+                <ul>
+                    <li><img src="../images/logo/revert_logo_white.png" alt=""></li>
+                    <li>〒104-0061<br>東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img src="../images/logo/revert_logo_white.png" alt=""></li>
+                    <li>〒104-0061<br>東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</li>
+                    <li>〒104-0061<br>東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img src="../images/logo/revert_logo_white.png" alt=""></li>
+                    <li>〒104-0061<br>東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</li>
+                    <li>〒104-0061<br>東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>

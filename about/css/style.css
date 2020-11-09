@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* サイドバー非表示 */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE, Edge 対応 */
+    scrollbar-width: none;
+    /* Firefox 対応 */
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+}
+
+
+/* ヘッダー */
+
+.about-header-contena {
+    height: 100px;
+    background: #DDD3CC;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul>li:nth-child(1) {
+    width: 80%;
+    padding: 15px 0px 10px 30px
+}
+
+header ul>li:nth-child(2) {
+    width: 20%;
+    text-align: right;
+    list-style: none;
+    padding: 10px 10px 0px 10px
+}
+
+
+/* 空白制御 */
+
+.pc_only_50 {
+    height: 50px;
+}
+
+.pc_only_100 {
+    height: 100px;
+}
+
+.pc_only_150 {
+    height: 150px;
+}
+
+.pc_only_200 {
+    height: 200px;
+}
+
+.pc_only_250 {
+    height: 250px;
+}
+
+.pc_only_300 {
+    height: 300px;
+}
+
+
+/* メインコンテンツ */
+
+main {
+    width: 100%;
+    min-width: 1160px;
+    letter-spacing: .05em;
+}
+
+.sec01-titlle01,
+.sec01-titlle02,
+.sec01-titlle03 {
+    margin: 0 auto;
+}
+
+
+/* メインコンテンツ_sec01 */
+
+main>section>.sec01-title01 h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 100px;
+    letter-spacing: 6px;
+}
+
+main>section>.sec01-img-contena01 {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+main>section>.sec01-title02 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yu Mincho', YuMincho, serif;
+    margin: 20px 0;
+    letter-spacing: 6px;
+}
+
+main>section>.sec01-title03 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yu Mincho', YuMincho, serif;
+    margin: 20px 0;
+    letter-spacing: 6px;
+}
+
+main>section>.sec01-img-contena01 {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+main>section>.sec01-img-contena02 {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+/* メインコンテンツ_sec02 */
+
+main>section>.sec02-title01 h1 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+main>section>.sec02-title02 p {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 2;
+}
+
+main>section>.sec02-title03 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yu Mincho', YuMincho, serif;
+    margin: 20px 0;
+    letter-spacing: 6px;
+}
+
+
+/* フッターコンテンツ */
+
+
+/* フッター１つ目 */
+
+.footer-contena {
+    display: flex;
+    height: 300px;
+    background: #DDD3CC;
+}
+
+.footer-contena div:nth-child(1) {
+    width: 30%;
+}
+
+.footer-contena div:nth-child(1) ul>li:nth-child(1) {
+    list-style: none;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.footer-contena div:nth-child(1) ul>li:nth-child(2) {
+    list-style: none;
+    margin-left: 12%;
+    margin-top: 10%;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+/* フッター２つ目 */
+
+.footer-contena div:nth-child(2) {
+    width: 30%;
+}
+
+.footer-contena div:nth-child(2) ul>li:nth-child(1) {
+    list-style: none;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.footer-contena div:nth-child(2) ul>li:nth-child(2) {
+    list-style: none;
+    margin-left: 12%;
+    margin-top: 10%;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer-contena div:nth-child(2) ul>li:nth-child(2) {
+    list-style: none;
+    margin-left: 12%;
+    margin-top: 10%;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+}
